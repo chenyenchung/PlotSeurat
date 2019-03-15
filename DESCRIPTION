@@ -1,0 +1,17 @@
+Package: PlotSeurat
+Type: Package
+Title: Plots That You Might Also Want With Seurat
+Version: 0.0.0.9000
+Authors@R: person("Yen-Chung", "Chen", email = "ycc520@nyu.edu", 
+                  role = c("aut", "cre"))
+Description: PlotSeurat provides wrappers accessing data in Seurat objects and plotting graphs from it.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Seurat,
+    utils,
+    methods,
+    ggplot2,
+    cowplot
+RoxygenNote: 6.1.1
